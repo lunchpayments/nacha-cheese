@@ -1,6 +1,6 @@
 {
     "name": "nacha-cheese",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Nacha Cheese is a TypeScript library for generating NACHA (Automated Clearing House) files, which are used to initiate ACH transactions in the United States.",
     "main": "dist/nacha.js",
     "types": "dist/nacha.d.ts",
