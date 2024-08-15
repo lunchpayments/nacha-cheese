@@ -1,16 +1,26 @@
 {
     "name": "nacha-cheese",
     "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
+    "description": "Nacha Cheese is a TypeScript library for generating NACHA (Automated Clearing House) files, which are used to initiate ACH transactions in the United States.",
+    "main": "dist/nacha.js",
+    "types": "dist/nacha.d.ts",
     "scripts": {
         "build": "tsc",
-        "test": "NODE_ENV=test ./node_modules/.bin/mocha --reporter spec"
+        "test": "NODE_ENV=test ./node_modules/.bin/mocha --reporter spec",
+        "prepublish": "pnpm build"
     },
     "type": "module",
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    "keywords": [
+        "nacha",
+        "ach",
+        "automated clearing house"
+    ],
+    "author": "Lunch Payments",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lunchpayments/nacha-cheese"
+    },
+    "license": "MIT",
     "dependencies": {
         "date-fns": "^3.6.0",
         "zod": "^3.23.8"

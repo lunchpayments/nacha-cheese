@@ -1,0 +1,8 @@
+src/
+test/
+pnpm-lock.yaml
+tsconfig.json
+.eslintrc.json
+.prettierrc.json
+.mocharc.json
+.gitignore
