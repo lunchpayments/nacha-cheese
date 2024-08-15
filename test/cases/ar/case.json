@@ -1,0 +1,90 @@
+{
+    "IATBatches": null,
+    "NotificationOfChange": null,
+    "ReturnEntries": null,
+    "batches": [
+        {
+            "batchControl": {
+                "ODFIIdentification": "02600959",
+                "batchNumber": 1,
+                "companyIdentification": "881234567",
+                "entryAddendaCount": 2,
+                "entryHash": 5201918,
+                "id": "",
+                "serviceClassCode": 200,
+                "totalCredit": 685100,
+                "totalDebit": 685100
+            },
+            "batchHeader": {
+                "ODFIIdentification": "02600959",
+                "batchNumber": 1,
+                "companyEntryDescription": "BILL",
+                "companyIdentification": "881234567",
+                "companyName": "Bob's Manufactur",
+                "effectiveEntryDate": "230131",
+                "id": "",
+                "originatorStatusCode": 1,
+                "serviceClassCode": 200,
+                "settlementDate": "   ",
+                "standardEntryClassCode": "CCD"
+            },
+            "entryDetails": [
+                {
+                    "DFIAccountNumber": "1234",
+                    "RDFIIdentification": "02600959",
+                    "amount": 685100,
+                    "category": "Forward",
+                    "checkDigit": "3",
+                    "discretionaryData": "  ",
+                    "id": "",
+                    "identificationNumber": "               ",
+                    "individualName": "Bob's Manufacturing   ",
+                    "traceNumber": "026009590000001",
+                    "transactionCode": 22
+                },
+                {
+                    "DFIAccountNumber": "11",
+                    "RDFIIdentification": "02600959",
+                    "amount": 685100,
+                    "category": "Forward",
+                    "checkDigit": "3",
+                    "discretionaryData": "  ",
+                    "id": "",
+                    "identificationNumber": "               ",
+                    "individualName": "Best Builders         ",
+                    "traceNumber": "026009590000002",
+                    "transactionCode": 27
+                }
+            ],
+            "offset": null
+        }
+    ],
+    "fileADVControl": {
+        "batchCount": 0,
+        "entryAddendaCount": 0,
+        "entryHash": 0,
+        "id": "",
+        "totalCredit": 0,
+        "totalDebit": 0
+    },
+    "fileControl": {
+        "batchCount": 1,
+        "blockCount": 1,
+        "entryAddendaCount": 2,
+        "entryHash": 5201918,
+        "id": "",
+        "totalCredit": 685100,
+        "totalDebit": 685100
+    },
+    "fileHeader": {
+        "fileCreationDate": "230113",
+        "fileCreationTime": "0000",
+        "fileIDModifier": "0",
+        "id": "",
+        "immediateDestination": "026009593",
+        "immediateDestinationName": "Bank Of America",
+        "immediateOrigin": "026009593",
+        "immediateOriginName": "Bank Of America"
+    },
+    "id": ""
+}

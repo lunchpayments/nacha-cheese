@@ -1,0 +1,223 @@
+{
+    "IATBatches": null,
+    "NotificationOfChange": null,
+    "ReturnEntries": null,
+    "batches": [
+        {
+            "batchControl": {
+                "ODFIIdentification": "02600959",
+                "batchNumber": 1,
+                "companyIdentification": "884563214",
+                "entryAddendaCount": 5,
+                "entryHash": 13004795,
+                "id": "",
+                "serviceClassCode": 200,
+                "totalCredit": 56,
+                "totalDebit": 57
+            },
+            "batchHeader": {
+                "ODFIIdentification": "02600959",
+                "batchNumber": 1,
+                "companyEntryDescription": "REFUND",
+                "companyIdentification": "884563214",
+                "companyName": "Central Utility",
+                "effectiveEntryDate": "230116",
+                "id": "",
+                "originatorStatusCode": 1,
+                "serviceClassCode": 200,
+                "settlementDate": "   ",
+                "standardEntryClassCode": "PPD"
+            },
+            "entryDetails": [
+                {
+                    "DFIAccountNumber": "11",
+                    "RDFIIdentification": "02600959",
+                    "amount": 13,
+                    "category": "Forward",
+                    "checkDigit": "3",
+                    "discretionaryData": "  ",
+                    "id": "",
+                    "identificationNumber": "               ",
+                    "individualName": "Rob Burton            ",
+                    "traceNumber": "026009590000001",
+                    "transactionCode": 27
+                },
+                {
+                    "DFIAccountNumber": "21",
+                    "RDFIIdentification": "02600959",
+                    "amount": 24,
+                    "category": "Forward",
+                    "checkDigit": "3",
+                    "discretionaryData": "  ",
+                    "id": "",
+                    "identificationNumber": "               ",
+                    "individualName": "Doug Henley           ",
+                    "traceNumber": "026009590000002",
+                    "transactionCode": 27
+                },
+                {
+                    "DFIAccountNumber": "31",
+                    "RDFIIdentification": "02600959",
+                    "amount": 9,
+                    "category": "Forward",
+                    "checkDigit": "3",
+                    "discretionaryData": "  ",
+                    "id": "",
+                    "identificationNumber": "               ",
+                    "individualName": "Susie McKay           ",
+                    "traceNumber": "026009590000003",
+                    "transactionCode": 27
+                },
+                {
+                    "DFIAccountNumber": "41",
+                    "RDFIIdentification": "02600959",
+                    "amount": 11,
+                    "category": "Forward",
+                    "checkDigit": "3",
+                    "discretionaryData": "  ",
+                    "id": "",
+                    "identificationNumber": "               ",
+                    "individualName": "Bill Dobs             ",
+                    "traceNumber": "026009590000004",
+                    "transactionCode": 27
+                },
+                {
+                    "DFIAccountNumber": "9876",
+                    "RDFIIdentification": "02600959",
+                    "amount": 56,
+                    "category": "Forward",
+                    "checkDigit": "3",
+                    "discretionaryData": "  ",
+                    "id": "",
+                    "identificationNumber": "               ",
+                    "individualName": "Central Utility       ",
+                    "traceNumber": "026009590000005",
+                    "transactionCode": 22
+                }
+            ],
+            "offset": null
+        },
+        {
+            "batchControl": {
+                "ODFIIdentification": "02600959",
+                "batchNumber": 2,
+                "companyIdentification": "884563214",
+                "entryAddendaCount": 5,
+                "entryHash": 13004795,
+                "id": "",
+                "serviceClassCode": 200,
+                "totalCredit": 57,
+                "totalDebit": 56
+            },
+            "batchHeader": {
+                "ODFIIdentification": "02600959",
+                "batchNumber": 2,
+                "companyEntryDescription": "VERIFY",
+                "companyIdentification": "884563214",
+                "companyName": "Central Utility",
+                "effectiveEntryDate": "230116",
+                "id": "",
+                "originatorStatusCode": 1,
+                "serviceClassCode": 200,
+                "settlementDate": "   ",
+                "standardEntryClassCode": "PPD"
+            },
+            "entryDetails": [
+                {
+                    "DFIAccountNumber": "9876",
+                    "RDFIIdentification": "02600959",
+                    "amount": 56,
+                    "category": "Forward",
+                    "checkDigit": "3",
+                    "discretionaryData": "  ",
+                    "id": "",
+                    "identificationNumber": "               ",
+                    "individualName": "Central Utility       ",
+                    "traceNumber": "026009590000001",
+                    "transactionCode": 27
+                },
+                {
+                    "DFIAccountNumber": "11",
+                    "RDFIIdentification": "02600959",
+                    "amount": 13,
+                    "category": "Forward",
+                    "checkDigit": "3",
+                    "discretionaryData": "  ",
+                    "id": "",
+                    "identificationNumber": "               ",
+                    "individualName": "Rob Burton            ",
+                    "traceNumber": "026009590000002",
+                    "transactionCode": 22
+                },
+                {
+                    "DFIAccountNumber": "21",
+                    "RDFIIdentification": "02600959",
+                    "amount": 24,
+                    "category": "Forward",
+                    "checkDigit": "3",
+                    "discretionaryData": "  ",
+                    "id": "",
+                    "identificationNumber": "               ",
+                    "individualName": "Doug Henley           ",
+                    "traceNumber": "026009590000003",
+                    "transactionCode": 22
+                },
+                {
+                    "DFIAccountNumber": "31",
+                    "RDFIIdentification": "02600959",
+                    "amount": 9,
+                    "category": "Forward",
+                    "checkDigit": "3",
+                    "discretionaryData": "  ",
+                    "id": "",
+                    "identificationNumber": "               ",
+                    "individualName": "Susie McKay           ",
+                    "traceNumber": "026009590000004",
+                    "transactionCode": 22
+                },
+                {
+                    "DFIAccountNumber": "41",
+                    "RDFIIdentification": "02600959",
+                    "amount": 11,
+                    "category": "Forward",
+                    "checkDigit": "3",
+                    "discretionaryData": "  ",
+                    "id": "",
+                    "identificationNumber": "               ",
+                    "individualName": "Bill Dobs             ",
+                    "traceNumber": "026009590000005",
+                    "transactionCode": 22
+                }
+            ],
+            "offset": null
+        }
+    ],
+    "fileADVControl": {
+        "batchCount": 0,
+        "entryAddendaCount": 0,
+        "entryHash": 0,
+        "id": "",
+        "totalCredit": 0,
+        "totalDebit": 0
+    },
+    "fileControl": {
+        "batchCount": 2,
+        "blockCount": 2,
+        "entryAddendaCount": 10,
+        "entryHash": 26009590,
+        "id": "",
+        "totalCredit": 113,
+        "totalDebit": 113
+    },
+    "fileHeader": {
+        "fileCreationDate": "230113",
+        "fileCreationTime": "0000",
+        "fileIDModifier": "0",
+        "id": "",
+        "immediateDestination": "026009593",
+        "immediateDestinationName": "Bank Of America",
+        "immediateOrigin": "026009593",
+        "immediateOriginName": "Bank Of America"
+    },
+    "id": ""
+}
