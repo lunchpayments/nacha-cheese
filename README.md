@@ -72,7 +72,7 @@ const entry = new Entry({
     transactionCode: TransactionCode.CheckingCredit,
     destinationRoutingNumber: '091000019',
     destinationAccountNumber: '1234567897',
-    amount: 50.5, // Amount in cents ($0.505)
+    amount: 5050, // Amount in cents (50.50)
     transactionId: '000001313',
     destinationName: 'Leroy Jenkins',
 });
@@ -109,7 +109,7 @@ batchTwo.addEntry(
         transactionCode: TransactionCode.CheckingDebit,
         destinationRoutingNumber: '091000019',
         destinationAccountNumber: '1234567897',
-        amount: 3.5, // Amount in cents ($0.035)
+        amount: 130000, // Amount in cents ($1300.00)
         transactionId: '5051309',
         destinationName: 'Richard Branson',
     }),
